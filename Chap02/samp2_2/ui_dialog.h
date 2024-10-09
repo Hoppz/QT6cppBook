@@ -10,6 +10,7 @@
 #define UI_DIALOG_H
 
 #include <QtCore/QVariant>
+#include <QtGui/QIcon>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QDialog>
@@ -49,7 +50,7 @@ public:
     {
         if (Dialog->objectName().isEmpty())
             Dialog->setObjectName("Dialog");
-        Dialog->resize(316, 317);
+        Dialog->resize(316, 361);
         verticalLayout = new QVBoxLayout(Dialog);
         verticalLayout->setObjectName("verticalLayout");
         groupBox_font = new QGroupBox(Dialog);
@@ -76,6 +77,8 @@ public:
 
         groupBox_color = new QGroupBox(Dialog);
         groupBox_color->setObjectName("groupBox_color");
+        groupBox_color->setEnabled(true);
+        groupBox_color->setCursor(QCursor(Qt::ArrowCursor));
         horizontalLayout = new QHBoxLayout(groupBox_color);
         horizontalLayout->setObjectName("horizontalLayout");
         radioBlack = new QRadioButton(groupBox_color);
@@ -116,6 +119,9 @@ public:
         horizontalLayout_3->setObjectName("horizontalLayout_3");
         btnClear = new QPushButton(Dialog);
         btnClear->setObjectName("btnClear");
+        QIcon icon;
+        icon.addFile(QString::fromUtf8(":/icon/icons8-cancel-32.png"), QSize(), QIcon::Normal, QIcon::Off);
+        btnClear->setIcon(icon);
 
         horizontalLayout_3->addWidget(btnClear);
 
@@ -125,6 +131,9 @@ public:
 
         btnOk = new QPushButton(Dialog);
         btnOk->setObjectName("btnOk");
+        QIcon icon1;
+        icon1.addFile(QString::fromUtf8(":/icon/icons8-checked-32.png"), QSize(), QIcon::Normal, QIcon::Off);
+        btnOk->setIcon(icon1);
 
         horizontalLayout_3->addWidget(btnOk);
 

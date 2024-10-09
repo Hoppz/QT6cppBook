@@ -3,5 +3,6 @@
     <qresource prefix="/icon">
         <file>icons8-cancel-32.png</file>
         <file>icons8-checked-32.png</file>
+        <file>icon.svg</file>
     </qresource>
 </RCC>

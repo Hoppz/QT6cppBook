@@ -48,10 +48,10 @@ void Dialog::on_checkBoxBold_clicked(bool checked)
 void Dialog::on_btnClear_clicked()
 {
     // 文字 + 样式都会清空
-    // ui->plainTextEdit->clear();
+    ui->plainTextEdit->clear();
 
     // 回复初始的样子
-
+    ui->plainTextEdit->insertPlainText("Qt");
 }
 
 // 自定义槽函数
