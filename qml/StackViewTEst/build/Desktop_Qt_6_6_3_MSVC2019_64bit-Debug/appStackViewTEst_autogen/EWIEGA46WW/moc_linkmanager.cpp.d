@@ -1,6 +1,7 @@
 E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/appStackViewTEst_autogen/EWIEGA46WW/moc_linkmanager.cpp: E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/linkmanager.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/QObject \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/QSettings \
+  C:/Qt/6.6.3/msvc2019_64/include/QtCore/QThread \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/q20functional.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/q20memory.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/q20type_traits.h \
@@ -31,7 +32,9 @@ E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC20
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qcontiguouscache.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qdarwinhelpers.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qdatastream.h \
+  C:/Qt/6.6.3/msvc2019_64/include/QtCore/qdeadlinetimer.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qdebug.h \
+  C:/Qt/6.6.3/msvc2019_64/include/QtCore/qelapsedtimer.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qexceptionhandling.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qflags.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qfloat16.h \
@@ -43,6 +46,7 @@ E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC20
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qglobalstatic.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qhash.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qhashfunctions.h \
+  C:/Qt/6.6.3/msvc2019_64/include/QtCore/qiodevice.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qiodevicebase.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qiterable.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qiterator.h \
@@ -95,6 +99,7 @@ E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC20
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtdeprecationmarkers.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtenvironmentvariables.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtextstream.h \
+  C:/Qt/6.6.3/msvc2019_64/include/QtCore/qthread.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtmetamacros.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtnoop.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtpreprocessorsupport.h \
@@ -110,5 +115,10 @@ E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC20
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qxptype_traits.h \
+  C:/Qt/6.6.3/msvc2019_64/include/QtSerialPort/QSerialPort \
+  C:/Qt/6.6.3/msvc2019_64/include/QtSerialPort/qserialport.h \
+  C:/Qt/6.6.3/msvc2019_64/include/QtSerialPort/qserialportglobal.h \
+  C:/Qt/6.6.3/msvc2019_64/include/QtSerialPort/qtserialportexports.h \
+  E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/LinkConfiguration.h \
   E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/linkconfiguration.h \
   E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/linkinterface.h

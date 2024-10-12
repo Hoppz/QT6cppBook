@@ -1,6 +1,7 @@
 E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/appStackViewTEst_autogen/EWIEGA46WW/moc_udplink.cpp: E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/udplink.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/QObject \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/QSettings \
+  C:/Qt/6.6.3/msvc2019_64/include/QtCore/QThread \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/q20functional.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/q20memory.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/q20type_traits.h \
@@ -31,7 +32,9 @@ E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC20
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qcontiguouscache.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qdarwinhelpers.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qdatastream.h \
+  C:/Qt/6.6.3/msvc2019_64/include/QtCore/qdeadlinetimer.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qdebug.h \
+  C:/Qt/6.6.3/msvc2019_64/include/QtCore/qelapsedtimer.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qexceptionhandling.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qflags.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qfloat16.h \
@@ -96,6 +99,7 @@ E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC20
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtdeprecationmarkers.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtenvironmentvariables.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtextstream.h \
+  C:/Qt/6.6.3/msvc2019_64/include/QtCore/qthread.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtmetamacros.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtnoop.h \
   C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtpreprocessorsupport.h \

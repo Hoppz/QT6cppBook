@@ -4,7 +4,12 @@ project(StackViewTEst VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Qt6 6.5 REQUIRED COMPONENTS Quick Network)
+find_package(Qt6 6.5 REQUIRED
+    COMPONENTS
+    Quick
+    Network
+    SerialPort
+)
 
 qt_standard_project_setup(REQUIRES 6.5)
 
@@ -30,6 +35,7 @@ qt_add_qml_module(appStackViewTEst
         SOURCES linkconfiguration.h linkconfiguration.cpp
         SOURCES linkinterface.h linkinterface.cpp
         SOURCES udplink.h udplink.cpp
+        SOURCES seriallink.h seriallink.cpp
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
@@ -43,9 +49,11 @@ set_target_properties(appStackViewTEst PROPERTIES
     WIN32_EXECUTABLE TRUE
 )
 
+
 target_link_libraries(appStackViewTEst
     PRIVATE Qt6::Quick
     Qt6::Network
+    Qt6::SerialPort
 )
 
 include(GNUInstallDirs)

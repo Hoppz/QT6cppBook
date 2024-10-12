@@ -770,6 +770,16 @@
 		"C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6Quick/Qt6QuickAdditionalTargetInfo.cmake",
 		"C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6Quick/Qt6QuickVersionlessTargets.cmake",
 		"C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6Quick/Qt6QuickPlugins.cmake",
+		"C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersion.cmake",
+		"C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersionImpl.cmake",
+		"C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6SerialPort/Qt6SerialPortConfig.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6SerialPort/Qt6SerialPortDependencies.cmake",
+		"C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6SerialPort/Qt6SerialPortTargets.cmake",
+		"C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6SerialPort/Qt6SerialPortTargets-debug.cmake",
+		"C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6SerialPort/Qt6SerialPortTargets-relwithdebinfo.cmake",
+		"C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6SerialPort/Qt6SerialPortAdditionalTargetInfo.cmake",
+		"C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6SerialPort/Qt6SerialPortVersionlessTargets.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
 		"C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
@@ -802,6 +812,12 @@
 			null
 		],
 		[
+			"E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/seriallink.h",
+			"MU",
+			"EWIEGA46WW/moc_seriallink.cpp",
+			null
+		],
+		[
 			"E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/udplink.h",
 			"MU",
 			"EWIEGA46WW/moc_udplink.cpp",
@@ -821,6 +837,7 @@
 		"QT_QMLMODELS_LIB",
 		"QT_QML_LIB",
 		"QT_QUICK_LIB",
+		"QT_SERIALPORT_LIB",
 		"UNICODE",
 		"WIN32",
 		"WIN64",
@@ -851,7 +868,8 @@
 		"C:/Qt/6.6.3/msvc2019_64/include/QtQuick",
 		"C:/Qt/6.6.3/msvc2019_64/include/QtGui",
 		"C:/Qt/6.6.3/msvc2019_64/include/QtQmlModels",
-		"C:/Qt/6.6.3/msvc2019_64/include/QtOpenGL"
+		"C:/Qt/6.6.3/msvc2019_64/include/QtOpenGL",
+		"C:/Qt/6.6.3/msvc2019_64/include/QtSerialPort"
 	],
 	"MOC_MACRO_NAMES" : 
 	[
@@ -908,6 +926,11 @@
 		],
 		[
 			"E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/main.cpp",
+			"MU",
+			null
+		],
+		[
+			"E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/seriallink.cpp",
 			"MU",
 			null
 		],

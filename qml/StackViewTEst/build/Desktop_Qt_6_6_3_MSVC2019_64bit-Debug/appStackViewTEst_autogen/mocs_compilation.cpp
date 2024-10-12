@@ -2,4 +2,5 @@
 #include "EWIEGA46WW/moc_linkconfiguration.cpp"
 #include "EWIEGA46WW/moc_linkinterface.cpp"
 #include "EWIEGA46WW/moc_linkmanager.cpp"
+#include "EWIEGA46WW/moc_seriallink.cpp"
 #include "EWIEGA46WW/moc_udplink.cpp"

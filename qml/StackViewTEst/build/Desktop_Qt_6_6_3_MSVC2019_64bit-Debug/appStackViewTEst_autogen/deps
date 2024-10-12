@@ -1,6 +1,8 @@
 appStackViewTEst_autogen/timestamp: \
+	C:/Qt/6.6.3/msvc2019_64/include/QtCore/QMutex \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/QObject \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/QSettings \
+	C:/Qt/6.6.3/msvc2019_64/include/QtCore/QThread \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/q20functional.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/q20memory.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/q20type_traits.h \
@@ -31,7 +33,9 @@ appStackViewTEst_autogen/timestamp: \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qcontiguouscache.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qdarwinhelpers.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qdatastream.h \
+	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qdeadlinetimer.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qdebug.h \
+	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qelapsedtimer.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qexceptionhandling.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qflags.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qfloat16.h \
@@ -56,6 +60,7 @@ appStackViewTEst_autogen/timestamp: \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qmetacontainer.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qmetatype.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qminmax.h \
+	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qmutex.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qnamespace.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qnumeric.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qobject.h \
@@ -96,10 +101,12 @@ appStackViewTEst_autogen/timestamp: \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtdeprecationmarkers.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtenvironmentvariables.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtextstream.h \
+	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qthread.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtmetamacros.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtnoop.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtpreprocessorsupport.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtresource.h \
+	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtsan_impl.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qttranslation.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qttypetraits.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtCore/qtversion.h \
@@ -117,6 +124,10 @@ appStackViewTEst_autogen/timestamp: \
 	C:/Qt/6.6.3/msvc2019_64/include/QtNetwork/qtnetwork-config.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtNetwork/qtnetworkexports.h \
 	C:/Qt/6.6.3/msvc2019_64/include/QtNetwork/qtnetworkglobal.h \
+	C:/Qt/6.6.3/msvc2019_64/include/QtSerialPort/QSerialPort \
+	C:/Qt/6.6.3/msvc2019_64/include/QtSerialPort/qserialport.h \
+	C:/Qt/6.6.3/msvc2019_64/include/QtSerialPort/qserialportglobal.h \
+	C:/Qt/6.6.3/msvc2019_64/include/QtSerialPort/qtserialportexports.h \
 	C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
 	C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
 	C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6/Qt6Config.cmake \
@@ -672,6 +683,15 @@ appStackViewTEst_autogen/timestamp: \
 	C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6Quick/Qt6QuickTargets-relwithdebinfo.cmake \
 	C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake \
 	C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6Quick/Qt6QuickVersionlessTargets.cmake \
+	C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6SerialPort/Qt6SerialPortAdditionalTargetInfo.cmake \
+	C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6SerialPort/Qt6SerialPortConfig.cmake \
+	C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersion.cmake \
+	C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersionImpl.cmake \
+	C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6SerialPort/Qt6SerialPortDependencies.cmake \
+	C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6SerialPort/Qt6SerialPortTargets-debug.cmake \
+	C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6SerialPort/Qt6SerialPortTargets-relwithdebinfo.cmake \
+	C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6SerialPort/Qt6SerialPortTargets.cmake \
+	C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6SerialPort/Qt6SerialPortVersionlessTargets.cmake \
 	C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateAdditionalTargetInfo.cmake \
 	C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfig.cmake \
 	C:/Qt/6.6.3/msvc2019_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersion.cmake \
@@ -721,6 +741,8 @@ appStackViewTEst_autogen/timestamp: \
 	E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/linkmanager.cpp \
 	E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/linkmanager.h \
 	E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/main.cpp \
+	E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/seriallink.cpp \
+	E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/seriallink.h \
 	E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/udplink.cpp \
 	E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/udplink.h \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe

@@ -127,4 +127,6 @@ private:
     bool _highLatency = false;
 };
 
+typedef std::shared_ptr<LinkConfiguration> SharedLinkConfigurationPtr;
+typedef std::weak_ptr<LinkConfiguration> WeakLinkConfigurationPtr;
 #endif // LINKCONFIGURATION_H

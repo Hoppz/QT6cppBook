@@ -75,10 +75,93 @@
                     "access": "public",
                     "name": "shutdown",
                     "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "config",
+                            "type": "LinkConfiguration*"
+                        }
+                    ],
+                    "name": "createConnectedLink",
+                    "returnType": "void"
                 }
             ],
             "object": true,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "serialBaudRates",
+                    "read": "serialBaudRates",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QStringList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "serialPortStrings",
+                    "notify": "commPortStringsChanged",
+                    "read": "serialPortStrings",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QStringList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "serialPorts",
+                    "notify": "commPortsChanged",
+                    "read": "serialPorts",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QStringList",
+                    "user": false
+                }
+            ],
             "qualifiedClassName": "LinkManager",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "mavlinkSupportForwardingEnabledChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "isBluetoothAvailableChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "commPortStringsChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "commPortsChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "name": "_linkDisconnected",
+                    "returnType": "void"
+                }
+            ],
             "superClasses": [
                 {
                     "access": "public",

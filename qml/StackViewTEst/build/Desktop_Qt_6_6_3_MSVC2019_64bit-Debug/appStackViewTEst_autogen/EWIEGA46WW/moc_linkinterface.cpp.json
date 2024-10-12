@@ -2,12 +2,89 @@
     "classes": [
         {
             "className": "LinkInterface",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "disconnect",
+                    "returnType": "void"
+                }
+            ],
             "object": true,
             "qualifiedClassName": "LinkInterface",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "link",
+                            "type": "LinkInterface*"
+                        },
+                        {
+                            "name": "data",
+                            "type": "QByteArray"
+                        }
+                    ],
+                    "name": "bytesReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "link",
+                            "type": "LinkInterface*"
+                        },
+                        {
+                            "name": "data",
+                            "type": "QByteArray"
+                        }
+                    ],
+                    "name": "bytesSent",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "connected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "disconnected",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "title",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "error",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "communicationError",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "bytes",
+                            "type": "QByteArray"
+                        }
+                    ],
+                    "name": "_writeBytes",
+                    "returnType": "void"
+                }
+            ],
             "superClasses": [
                 {
                     "access": "public",
-                    "name": "QObject"
+                    "name": "QThread"
                 }
             ]
         }

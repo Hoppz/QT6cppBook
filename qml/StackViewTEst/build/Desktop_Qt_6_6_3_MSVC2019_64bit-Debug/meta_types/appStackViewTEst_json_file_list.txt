@@ -1,4 +1,5 @@
 E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/appStackViewTEst_autogen/include/../EWIEGA46WW/moc_linkconfiguration.cpp.json
 E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/appStackViewTEst_autogen/include/../EWIEGA46WW/moc_linkinterface.cpp.json
 E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/appStackViewTEst_autogen/include/../EWIEGA46WW/moc_linkmanager.cpp.json
+E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/appStackViewTEst_autogen/include/../EWIEGA46WW/moc_seriallink.cpp.json
 E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/appStackViewTEst_autogen/include/../EWIEGA46WW/moc_udplink.cpp.json
