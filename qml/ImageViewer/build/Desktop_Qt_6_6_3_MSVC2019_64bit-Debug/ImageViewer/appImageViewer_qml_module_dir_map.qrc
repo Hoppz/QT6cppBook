@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/qt/qml/ImageViewer">E:/__WorkProgram__/QT/QT6cppBook/qml/ImageViewer/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/ImageViewer</file>
+
+  </qresource>
+</RCC>

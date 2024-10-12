@@ -1,0 +1,14 @@
+-rootPath
+E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst
+-cmake-output
+-output-file
+E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appStackViewTEst.cmake
+-importPath
+E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/StackViewTEst
+-importPath
+E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug
+-importPath
+C:/Qt/6.6.3/msvc2019_64/./qml
+-qrcFiles
+E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/.rcc/qmake_StackViewTEst.qrc
+E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/.rcc/appStackViewTEst_raw_qml_0.qrc

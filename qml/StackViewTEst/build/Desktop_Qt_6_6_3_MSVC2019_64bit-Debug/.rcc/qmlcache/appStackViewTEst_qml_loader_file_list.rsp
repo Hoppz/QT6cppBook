@@ -1,0 +1,8 @@
+--resource
+E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/.rcc/qmake_StackViewTEst.qrc
+--resource
+E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/.rcc/appStackViewTEst_raw_qml_0.qrc
+/qt/qml/StackViewTEst/Main.qml
+/qt/qml/StackViewTEst/Home.qml
+/qt/qml/StackViewTEst/Profile.qml
+/qt/qml/StackViewTEst/About.qml

@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "LinkInterface",
+            "object": true,
+            "qualifiedClassName": "LinkInterface",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "linkinterface.h",
+    "outputRevision": 68
+}

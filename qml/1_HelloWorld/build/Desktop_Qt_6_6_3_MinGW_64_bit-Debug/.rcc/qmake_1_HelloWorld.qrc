@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/1_HelloWorld">
+    <file alias="qmldir">E:/__WorkProgram__/QT/QT6cppBook/qml/1_HelloWorld/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/1_HelloWorld/qmldir</file>
+  </qresource>
+</RCC>
+

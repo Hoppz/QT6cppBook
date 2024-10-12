@@ -1,0 +1,181 @@
+{
+    "classes": [
+        {
+            "className": "LinkConfiguration",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "LinkType",
+                    "values": [
+                        "TypeSerial",
+                        "TypeUdp",
+                        "TypeTcp",
+                        "TypeMock",
+                        "Airlink",
+                        "TypeLogReplay",
+                        "TypeLast"
+                    ]
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "name",
+                    "notify": "nameChanged",
+                    "read": "name",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setName"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "link",
+                    "notify": "linkChanged",
+                    "read": "link",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "LinkInterface*",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "linkType",
+                    "read": "type",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "LinkType",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "dynamic",
+                    "notify": "dynamicChanged",
+                    "read": "isDynamic",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setDynamic"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 4,
+                    "name": "autoConnect",
+                    "notify": "autoConnectChanged",
+                    "read": "isAutoConnect",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setAutoConnect"
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 5,
+                    "name": "settingsURL",
+                    "read": "settingsURL",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 6,
+                    "name": "settingsTitle",
+                    "read": "settingsTitle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 7,
+                    "name": "highLatency",
+                    "notify": "highLatencyChanged",
+                    "read": "isHighLatency",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setHighLatency"
+                }
+            ],
+            "qualifiedClassName": "LinkConfiguration",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "nameChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "linkChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "dynamicChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "autoConnectChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "highLatencyChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "linkconfiguration.h",
+    "outputRevision": 68
+}

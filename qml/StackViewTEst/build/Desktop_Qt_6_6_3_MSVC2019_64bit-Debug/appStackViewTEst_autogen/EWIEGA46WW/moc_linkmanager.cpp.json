@@ -1,0 +1,92 @@
+{
+    "classes": [
+        {
+            "className": "LinkManager",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "type",
+                            "type": "int"
+                        },
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "createConfiguration",
+                    "returnType": "LinkConfiguration*"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "config",
+                            "type": "LinkConfiguration*"
+                        }
+                    ],
+                    "name": "startConfigurationEditing",
+                    "returnType": "LinkConfiguration*"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "config",
+                            "type": "LinkConfiguration*"
+                        }
+                    ],
+                    "name": "cancelConfigurationEditing",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "config",
+                            "type": "LinkConfiguration*"
+                        },
+                        {
+                            "name": "editedConfig",
+                            "type": "LinkConfiguration*"
+                        }
+                    ],
+                    "name": "endConfigurationEditing",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "config",
+                            "type": "LinkConfiguration*"
+                        }
+                    ],
+                    "name": "removeConfiguration",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "createMavlinkForwardingSupportLink",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "shutdown",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "LinkManager",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "linkmanager.h",
+    "outputRevision": 68
+}

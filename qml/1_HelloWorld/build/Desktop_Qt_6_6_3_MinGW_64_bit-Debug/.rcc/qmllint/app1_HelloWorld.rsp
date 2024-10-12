@@ -1,0 +1,10 @@
+--bare
+-I
+E:/__WorkProgram__/QT/QT6cppBook/qml/1_HelloWorld/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug
+-I
+C:/Qt/6.6.3/mingw_64/./qml
+--resource
+E:/__WorkProgram__/QT/QT6cppBook/qml/1_HelloWorld/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/.rcc/qmake_1_HelloWorld.qrc
+--resource
+E:/__WorkProgram__/QT/QT6cppBook/qml/1_HelloWorld/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/.rcc/app1_HelloWorld_raw_qml_0.qrc
+E:/__WorkProgram__/QT/QT6cppBook/qml/1_HelloWorld/Main.qml

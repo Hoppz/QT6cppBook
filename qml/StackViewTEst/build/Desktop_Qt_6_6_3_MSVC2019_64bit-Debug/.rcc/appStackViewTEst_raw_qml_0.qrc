@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/qt/qml/StackViewTEst/">
+    <file alias="Main.qml">E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/Main.qml</file>
+    <file alias="Home.qml">E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/Home.qml</file>
+    <file alias="Profile.qml">E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/Profile.qml</file>
+    <file alias="About.qml">E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/About.qml</file>
+  </qresource>
+</RCC>
+

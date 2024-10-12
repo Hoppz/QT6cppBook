@@ -1,0 +1,14 @@
+-rootPath
+E:/__WorkProgram__/QT/QT6cppBook/qml/Qml_Cpp_test
+-cmake-output
+-output-file
+E:/__WorkProgram__/QT/QT6cppBook/qml/Qml_Cpp_test/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appQml_Cpp_test.cmake
+-importPath
+E:/__WorkProgram__/QT/QT6cppBook/qml/Qml_Cpp_test/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/Qml_Cpp_test
+-importPath
+E:/__WorkProgram__/QT/QT6cppBook/qml/Qml_Cpp_test/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug
+-importPath
+C:/Qt/6.6.3/msvc2019_64/./qml
+-qrcFiles
+E:/__WorkProgram__/QT/QT6cppBook/qml/Qml_Cpp_test/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/.rcc/qmake_Qml_Cpp_test.qrc
+E:/__WorkProgram__/QT/QT6cppBook/qml/Qml_Cpp_test/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/.rcc/appQml_Cpp_test_raw_qml_0.qrc

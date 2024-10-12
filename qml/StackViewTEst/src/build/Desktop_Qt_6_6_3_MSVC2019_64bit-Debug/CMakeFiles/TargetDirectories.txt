@@ -1,0 +1,2 @@
+E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/src/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/CMakeFiles/edit_cache.dir
+E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/src/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/CMakeFiles/rebuild_cache.dir

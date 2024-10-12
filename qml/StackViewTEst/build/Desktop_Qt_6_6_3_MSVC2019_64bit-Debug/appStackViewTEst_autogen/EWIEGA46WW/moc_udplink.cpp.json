@@ -1,0 +1,95 @@
+{
+    "classes": [
+        {
+            "className": "UDPLink",
+            "object": true,
+            "qualifiedClassName": "UDPLink",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "LinkInterface"
+                }
+            ]
+        },
+        {
+            "className": "UDPConfiguration",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "host",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "addHost",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "host",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "removeHost",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "localPort",
+                    "notify": "localPortChanged",
+                    "read": "localPort",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "quint16",
+                    "user": false,
+                    "write": "setLocalPort"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "hostList",
+                    "notify": "hostListChanged",
+                    "read": "hostList",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QStringList",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "UDPConfiguration",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "localPortChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "hostListChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "LinkConfiguration"
+                }
+            ]
+        }
+    ],
+    "inputFile": "udplink.h",
+    "outputRevision": 68
+}

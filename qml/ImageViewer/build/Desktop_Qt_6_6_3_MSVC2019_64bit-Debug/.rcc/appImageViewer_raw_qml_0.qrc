@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/ImageViewer/">
+    <file alias="Main.qml">E:/__WorkProgram__/QT/QT6cppBook/qml/ImageViewer/Main.qml</file>
+    <file alias="images/sort.svg">E:/__WorkProgram__/QT/QT6cppBook/qml/ImageViewer/images/sort.svg</file>
+  </qresource>
+</RCC>
+

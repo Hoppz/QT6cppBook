@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Qml_Cpp_test">
+    <file alias="qmldir">E:/__WorkProgram__/QT/QT6cppBook/qml/Qml_Cpp_test/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/Qml_Cpp_test/qmldir</file>
+  </qresource>
+</RCC>
+

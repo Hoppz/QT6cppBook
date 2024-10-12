@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-6b4af42fad7eacf65068.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ImageViewer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-419f3f3d04d029dce07d.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-7957de76a62976beeb98.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-69d03d64e108e39cab8e.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-1f4be16ec448d98ab161.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appImageViewer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appImageViewer-Debug-6be1e414847bd3196260.json",
+					"name" : "appImageViewer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appImageViewer_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appImageViewer_autogen-Debug-6fc23fa940e277f3fe14.json",
+					"name" : "appImageViewer_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appImageViewer_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appImageViewer_autogen_timestamp_deps-Debug-52611c21741ba4cd70fe.json",
+					"name" : "appImageViewer_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appImageViewer_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appImageViewer_qmlimportscan-Debug-9b0ea19bc0fd6b29d985.json",
+					"name" : "appImageViewer_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appImageViewer_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appImageViewer_qmllint-Debug-b4e838753211f6744f71.json",
+					"name" : "appImageViewer_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appImageViewer_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appImageViewer_qmllint_json-Debug-c5a1fa4de9e887de729f.json",
+					"name" : "appImageViewer_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appImageViewer_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appImageViewer_qmllint_module-Debug-446bf3909958cd952a13.json",
+					"name" : "appImageViewer_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appImageViewer_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appImageViewer_qmltyperegistration-Debug-cedf23f689d46e1f074d.json",
+					"name" : "appImageViewer_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appImageViewer_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appImageViewer_tooling-Debug-e244199d04e841a51ab9.json",
+					"name" : "appImageViewer_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/__WorkProgram__/QT/QT6cppBook/qml/ImageViewer/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug",
+		"source" : "E:/__WorkProgram__/QT/QT6cppBook/qml/ImageViewer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

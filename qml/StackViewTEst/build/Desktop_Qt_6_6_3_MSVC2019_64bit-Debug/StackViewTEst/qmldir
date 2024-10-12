@@ -1,0 +1,8 @@
+module StackViewTEst
+typeinfo appStackViewTEst.qmltypes
+prefer :/qt/qml/StackViewTEst/
+Main 1.0 Main.qml
+Home 1.0 Home.qml
+Profile 1.0 Profile.qml
+About 1.0 About.qml
+

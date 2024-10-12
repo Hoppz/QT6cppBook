@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/StackViewTEst">
+    <file alias="qmldir">E:/__WorkProgram__/QT/QT6cppBook/qml/StackViewTEst/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/StackViewTEst/qmldir</file>
+  </qresource>
+</RCC>
+

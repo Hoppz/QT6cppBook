@@ -1,0 +1,5 @@
+module Qml_Cpp_test
+typeinfo appQml_Cpp_test.qmltypes
+prefer :/qt/qml/Qml_Cpp_test/
+Main 1.0 Main.qml
+

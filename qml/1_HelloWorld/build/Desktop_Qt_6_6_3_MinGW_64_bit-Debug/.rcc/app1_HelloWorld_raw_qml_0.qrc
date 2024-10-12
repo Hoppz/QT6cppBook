@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/1_HelloWorld/">
+    <file alias="Main.qml">E:/__WorkProgram__/QT/QT6cppBook/qml/1_HelloWorld/Main.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,5 @@
+module 1_HelloWorld
+typeinfo app1_HelloWorld.qmltypes
+prefer :/qt/qml/1_HelloWorld/
+Main 1.0 Main.qml
+

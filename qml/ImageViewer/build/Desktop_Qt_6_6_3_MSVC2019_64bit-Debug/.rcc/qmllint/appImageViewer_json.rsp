@@ -1,0 +1,12 @@
+--bare
+-I
+E:/__WorkProgram__/QT/QT6cppBook/qml/ImageViewer/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug
+-I
+C:/Qt/6.6.3/msvc2019_64/./qml
+--resource
+E:/__WorkProgram__/QT/QT6cppBook/qml/ImageViewer/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/.rcc/qmake_ImageViewer.qrc
+--resource
+E:/__WorkProgram__/QT/QT6cppBook/qml/ImageViewer/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/.rcc/appImageViewer_raw_qml_0.qrc
+E:/__WorkProgram__/QT/QT6cppBook/qml/ImageViewer/Main.qml
+--json
+E:/__WorkProgram__/QT/QT6cppBook/qml/ImageViewer/build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/appImageViewer_qmllint.json
